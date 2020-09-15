@@ -1,0 +1,195 @@
+body {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1.25rem;
+}
+
+.landing {
+  background-image: url("fullcryo-gm.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(85vh - 70px);
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.cryo-header {
+  width: 100%;
+  max-width: 690px;
+}
+
+nav > div.row > div.col-4 {
+  height: 40px !important;
+}
+
+nav + nav {
+  height: 70px !important;
+}
+
+.py-8px {
+  padding: 8px 0px;
+}
+
+.mybtn {
+  background-color: #50b8e4 !important;
+}
+
+.mybtn:hover {
+  background-color: #6bcaf1 !important;
+  border-color: #50b8e4;
+}
+
+video {
+  height: 75vh !important;
+  width: 50vw !important;
+}
+
+h1 {
+  font-family: futura;
+  font-style: italic;
+  color: #25456c;
+}
+
+h2 {
+  font-family: futura;
+  font-style: italic;
+  /* font-size: 4vw !important; */
+  color: #25456c;
+}
+
+h3 {
+  font-family: futura;
+  color: #539ede;
+}
+
+.sport-bg {
+  height: 40vw;
+}
+
+h5 {
+  font-family: futura;
+  color: #4397db;
+  font-style: italic;
+}
+
+.bottomed-text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.centered-text {
+  display: flex;
+  align-items: center;
+}
+
+.grid-sport-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "sport2";
+}
+
+.sport-img2 {
+  grid-area: sport2;
+}
+
+.sport-bg2 {
+  height: 45vw;
+}
+
+.sport-txt2 {
+  grid-area: sport2;
+  z-index: 1;
+}
+
+.bl-text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.cl-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+ul {
+  list-style-image: url(snow.png);
+}
+
+.hl-blue {
+  color: #539ede !important;
+}
+
+.hl-blue:hover {
+  color: #25456c !important;
+}
+
+.foot-link {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.foot-link:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.maps iframe {
+  min-height: 120px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.matterport-showcase iframe {
+  min-height: 120px;
+  margin: 16px 0;
+  width: 100%;
+}
+
+.tab-img {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .matterport-showcase iframe {
+    min-height: 360px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .sport-bg {
+    height: 30vw;
+  }
+  .sport-list {
+    margin-left: 3rem;
+  }
+
+  .bottomed-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .flex-sport-2 {
+    flex-direction: row-reverse;
+  }
+
+  .sport-bg2 {
+    max-width: 105%;
+    height: auto;
+  }
+
+  .matterport-showcase iframe {
+    height: 480px;
+    max-width: 853px;
+    margin: 0 auto 15px;
+  }
+
+  .matterport-showcase {
+    text-align: center;
+  }
+}

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CRYO GM - Votre bien-être par le froid</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="cryo.css" />
+    <link rel="icon" href="cryo-gm.png" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-white sticky-top navbar-light d-lg-none">
+      <a href="index.html"
+        ><img src="logo.svg" height="40" alt="" loading="lazy"
+      /></a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="cryo.html"
+              >La Cryothérapie? <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hl-blue" href="index.html#resa">Réservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Notre centre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="partenaires.html">Nos partenaires</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav
+      class="navbar align-items-center bg-white sticky-top navbar-light d-none d-lg-block"
+    >
+      <div class="row m-0">
+        <div class="col-2 navbar-nav">
+          <a href="index.html" class="py-8px"
+            ><img src="logo.svg" height="40" alt="" loading="lazy"
+          /></a>
+        </div>
+        <div class="col-10 navbar-nav pr-2">
+          <ul class="navbar list-inline justify-content-end pr-0 mb-0">
+            <li class="nav-item list-inline-items ml-3">
+              <a class="nav-link active" href="cryo.html">La Cryothérapie?</a>
+            </li>
+            <li class="nav-item list-inline-items ml-3">
+              <a class="nav-link hl-blue" href="index.html#resa">Réservation</a>
+            </li>
+            <li class="nav-item list-inline-items ml-3">
+              <a class="nav-link" href="contact.html">Notre centre</a>
+            </li>
+            <li class="nav-item list-inline-items ml-3">
+              <a class="nav-link" href="partenaires.html">Nos partenaires</a>
+            </li>
+            <li class="nav-item list-inline-items ml-3">
+              <a
+                class="nav-link pt-0 pb-0"
+                href="https://www.facebook.com/c.Cryogm"
+                target="_blank"
+                ><img src="facebook.png" height="30" alt="" loading="lazy"
+              /></a>
+            </li>
+            <li class="nav-item list-inline-items ml-3">
+              <a
+                class="nav-link pt-0 pb-0"
+                href="https://www.instagram.com/cryogm/"
+                target="_blank"
+                ><img src="instagram.png" height="30" alt="" loading="lazy"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Header -->
+    <header>
+      <section class="py-5">
+        <div class="container text-center">
+          <img class="cryo-header" src="logo.svg" alt="" loading="lazy" />
+
+          <h1 class="text-uppercase">
+            Qu'est-ce que La cryothérapie corps entier?
+          </h1>
+        </div>
+      </section>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Description -->
+    <section>
+      <div class="container text-center">
+        <p class="lead">
+          La cryothérapie consiste à exposer le corps humain à un froid intense
+          de -110°C à -140°C sur une période de 3 minutes.
+        </p>
+        <p>
+          Ce choc thermique va agir comme un puissant stimulateur psychique et
+          engendrer différents processus bénéfiques pour le corps : libération
+          d’hormones, processus analgésique, anti-inflammatoires, antidépresseur
+          et régénératif
+        </p>
+      </div>
+    </section>
+    <!-- End of Description -->
+
+    <!-- CryoFeatures -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="mb-5 text-center">
+          Les bienfaits de la Cryothérapie Corps Entier
+        </h2>
+
+        <div class="d-lg-none">
+          <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link active"
+                id="pills-home-tab"
+                data-toggle="pill"
+                href="#pills-home"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+                >Calories</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="pills-profile-tab"
+                data-toggle="pill"
+                href="#pills-profile"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+                >Cryothérapie vs Coronavirus</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="pills-contact-tab"
+                data-toggle="pill"
+                href="#pills-contact"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+                >Sommeil</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <p>
+                En moyenne, lors d’une séance de cryothérapie corps entier de
+                trois minutes, l’effort réalisé par le corps pour se protéger du
+                froid lui demande un surplus d’énergie. C’est à ce moment-là que
+                le nombre de calories brûlées va augmenter. Le corps brûle entre
+                500 et 800 calories. Là encore, il s’agit d’un phénomène naturel
+                prouvé scientifiquement.<br />Cependant, ces chiffres varient
+                considérablement d’un individu à l’autre.
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <p>
+                Stimulez votre système immunitaire avec la cryothérapie pour
+                lutter contre le Coronavirus.<br />Les températures basses
+                fortifient votre organisme en le rendant plus résistant
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+            >
+              <p>
+                La Cryothérapie Corps Entier présente de nombreux bienfaits pour
+                le corps et l’esprit. Cette thérapie est particulièrement
+                efficace contre les troubles du sommeil et des insomnies.<br />Si
+                vous connaissez des problèmes pour vous endormir ou que vous
+                êtes régulièrement réveillés, nous vous conseillons de réaliser
+                plusieurs séances sur quelques jours voir sur quelques semaines.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-none d-lg-flex row">
+          <div class="col-3">
+            <div
+              class="nav flex-column nav-pills"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="nav-link active"
+                id="v-pills-home-tab"
+                data-toggle="pill"
+                href="#v-pills-home"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+                >Calories</a
+              >
+              <a
+                class="nav-link"
+                id="v-pills-profile-tab"
+                data-toggle="pill"
+                href="#v-pills-profile"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+                >Cryothérapie vs Coronavirus</a
+              >
+              <a
+                class="nav-link"
+                id="v-pills-messages-tab"
+                data-toggle="pill"
+                href="#v-pills-messages"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+                >Sommeil</a
+              >
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-home"
+                role="tabpanel"
+                aria-labelledby="v-pills-home-tab"
+              >
+                <p>
+                  En moyenne, lors d’une séance de cryothérapie corps entier de
+                  trois minutes, l’effort réalisé par le corps pour se protéger
+                  du froid lui demande un surplus d’énergie. C’est à ce
+                  moment-là que le nombre de calories brûlées va augmenter. Le
+                  corps brûle entre 500 et 800 calories. Là encore, il s’agit
+                  d’un phénomène naturel prouvé scientifiquement.<br />
+                  Cependant, ces chiffres varient considérablement d’un individu
+                  à l’autre.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-profile"
+                role="tabpanel"
+                aria-labelledby="v-pills-profile-tab"
+              >
+                <p>
+                  Stimulez votre système immunitaire avec la cryothérapie pour
+                  lutter contre le Coronavirus.<br />Les températures basses
+                  fortifient votre organisme en le rendant plus résistant.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-messages"
+                role="tabpanel"
+                aria-labelledby="v-pills-messages-tab"
+              >
+                <p>
+                  La Cryothérapie Corps Entier présente de nombreux bienfaits
+                  pour le corps et l’esprit. Cette thérapie est particulièrement
+                  efficace contre les troubles du sommeil et des insomnies.<br />Si
+                  vous connaissez des problèmes pour vous endormir ou que vous
+                  êtes régulièrement réveillé, nous vous conseillons de réaliser
+                  plusieurs séances sur quelques jours, voir sur quelques
+                  semaines.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of CryoFeatures -->
+
+    <!-- Explanations -->
+    <section>
+      <div class="container">
+        <h2 class="mb-4 text-center">Explication de notre cabine</h2>
+
+        <img
+          src="wholebody.jpeg"
+          class="col-12 col-md-6 float-left mr-4 mb-4"
+          alt=""
+        />
+
+        <p>
+          ❄️ La technologie Ecopulse:
+        </p>
+        <p>
+          Il s’agit d’un système de refroidissement qui transforme l’azote
+          liquide en gaz avant de l’injecter dans la cabine de cryothérapie. Le
+          but étant de vous plonger dans une atmosphère comprise entre -110 et
+          -140 degrés selon le programme sélectionné.
+        </p>
+        <p>
+          Grâce à un système ingénieux, ces vapeurs d’azote vont tourbillonner
+          autour de votre corps et ainsi homogénéiser la température des épaules
+          jusqu’à vos pieds. Cette technique permet une grande efficacité.
+        </p>
+        <p>
+          ❄️ Le système WholeBody:
+        </p>
+        <p>
+          Il s’agit d’un jet localisé permettant de refroidir la surface cutanée
+          de votre tête et nuque, tout au long de la séance de cryothérapie.
+          <br />Ce système a été inspiré d’étude sur la cryothérapie démontrant
+          que plus la globalité de la peau est refroidie, plus il y a de
+          résultats.<br />
+        </p>
+
+        <p>
+          Sans ce système nous ne ferions pas de la CRYOTHÉRAPIE CORPS ENTIER
+          mais de la CRYOTHÉRAPIE CORPS PARTIEL.
+        </p>
+        <p>
+          A ce jour,
+          <a href="https://www.cryo-evolution.com/" target="_blank">
+            Cryo Evolution</a
+          >
+          🇨🇵 est le seul fabricant à vous proposer des appareils sécurisés
+          combinant l’homogénéité, et le refroidissement global du corps sans
+          inhalation de vapeurs d’azote.
+        </p>
+      </div>
+    </section>
+    <!-- End of Explanations -->
+
+    <!-- whatever -->
+    <!-- <section>
+      <div class="container text-center">
+        <h2 class="mb-4">PiperNet Setup</h2>
+        <p class="lead mb-5">
+          We've designed a simple, efficient process for companies migrating to
+          PiperNet. Here's how it works.
+        </p>
+        <div>
+          <div class="row align-items-center text-md-left mb-5">
+            <div class="col-md-6 order-1 order-md-0">
+              <img
+                class="img-fluid"
+                src="placeholder/pictures/bg_16-9.svg?primary=007bff"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6 mb-4 mb-md-0">
+              <span class="display-3 mb-2">01</span>
+              <h3 class="mb-4">Move Data</h3>
+              <p>
+                Using our Piper Assistant application, you can move your data to
+                be stored our decentralized network with simple drag &amp; drop.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center text-md-right mb-5">
+            <div class="col-md-6 order-1">
+              <img
+                class="img-fluid"
+                src="placeholder/pictures/bg_16-9.svg?primary=007bff"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6 mb-4 mb-md-0 order-0">
+              <span class="display-3 mb-2">02</span>
+              <h3 class="mb-4">Integrate Software</h3>
+              <p>
+                We want to make sure that you can keep using the software that
+                you use to manage your business.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center text-md-left mb-5">
+            <div class="col-md-6 order-1 order-md-0">
+              <img
+                class="img-fluid"
+                src="placeholder/pictures/bg_16-9.svg?primary=007bff"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6 mb-4 mb-md-0">
+              <span class="display-3 mb-2">03</span>
+              <h3 class="mb-4">Ongoing Support</h3>
+              <p>
+                As with all innovative technologies, sometimes unpredictable
+                things will happen, and you can always count on our support to
+                solve issues for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End of whatever -->
+
+    <!-- Footer -->
+    <footer class="py-3 mt-3">
+      <div class="container">
+        <div class="d-flex justify-content-center mt-2 border-bottom pb-2">
+          <h5 class="mr-0 mb-0">
+            <a href="index.html"
+              ><img src="logo.svg" height="40" alt="" loading="lazy"
+            /></a>
+          </h5>
+        </div>
+
+        <div class="d-flex justify-content-center mt-2 border-bottom pb-2">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link foot-link" href="cryo.html"
+                >La Cryothérapie?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hl-blue" href="index.html#resa">Réservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link foot-link" href="contact.html">Notre centre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link foot-link" href="partenaires.html"
+                >Nos partenaires</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="d-flex justify-content-center align-items-center justify-content-md-between flex-column flex-md-row mx-3 mt-3"
+        >
+          <div class="d-flex">
+            <a href="https://www.facebook.com/c.Cryogm" target="_blank"
+              ><img
+                class="mr-3"
+                height="30"
+                src="facebook.png"
+                alt=""
+                loading="lazy"/></a
+            ><a href="https://www.instagram.com/cryogm/" target="_blank"
+              ><img height="30" src="instagram.png" alt="" loading="lazy"
+            /></a>
+          </div>
+          <div class="d-flex mt-3 mt-md-0">
+            <p class="mb-0 small text-muted">
+              © CRYO GM. All right reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+  </body>
+</html>
