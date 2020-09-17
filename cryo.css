@@ -255,6 +255,16 @@ ul {
   width: 35px;
 }
 
+#calendly {
+  height: 1000px !important;
+}
+
+@media (min-width: 650px) {
+  #calendly {
+    height: 1100px !important;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .matterport-showcase iframe {
     min-height: 360px;
@@ -292,5 +302,14 @@ ul {
 
   .matterport-showcase {
     text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  #calendly {
+    height: 650px !important;
+  }
+  footer {
+    padding-top: 3rem;
   }
 }
