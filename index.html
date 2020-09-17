@@ -125,15 +125,26 @@
       <section class="py-5">
         <div class="container text-center">
           <img class="cryo-header" src="logo.svg" alt="" loading="lazy" />
-          <h1 class="text-uppercase">
+          <h1 class="text-uppercase pb-3">
             La cryothérapie corps entier
           </h1>
-          <h3 class="text-uppercase">Une expérience unique!</h3>
+          <h3 class="text-uppercase pb-3">Une expérience unique!</h3>
+          <a href="index.html#resa"
+            ><button
+              class="btn btn-link mycta heartbeat font-weight-bold text-uppercase"
+              type="button"
+            >
+              Je réserve ma séance!
+            </button></a
+          >
+          <br />
           <br />
           <video
             controls
             height=""
-            autostart="false"
+            autoplay="true"
+            muted="true"
+            loop="true"
             preload="auto"
             id="cryo1m"
             class="col-12"
@@ -202,7 +213,7 @@
     <!-- End of Roll Up -->
 
     <!-- Reservation -->
-    <section id="resa">
+    <section>
       <div class="container text-center">
         <h3 class="mb-4 pt-3">Instructions</h3>
 
@@ -238,11 +249,8 @@
                 contre-indications.
               </p>
               <p>
-                Une fois celui-ci dûment rempli, vous vous mettez en tenue
-                règlementaire dans nos cabines de change (prévues à cet effet):
-                maillot de bain deux pièces de préférence ou sous-vêtements,
-                gants d'hiver, chaussettes et sandales (ou chaussons très
-                chauds).
+                Une fois celui-ci dûment rempli, vous vous mettez en tenue dans
+                nos cabines de change prévues à cet effet.
               </p>
               <strong>
                 <p>
@@ -349,6 +357,7 @@
 
           Sorry, your browser doesn't support embedded videos.
         </video>
+        <span id="resa"></span>
       </div>
     </section>
     <!-- End of Reservation -->
@@ -367,13 +376,6 @@
               <p class="my-4">
                 <small class="text-muted">Pour vous ou à offrir</small>
               </p>
-              <a
-                href="https://cryogm.sumup.link/seance-individuelle"
-                target="blank"
-                ><button class="btn btn-lg btn-outline-primary" type="button">
-                  Je réserve!
-                </button></a
-              >
             </div>
           </div>
           <div class="col-md-4 my-4">
@@ -385,11 +387,6 @@
               <p class="my-4">
                 <small class="text-muted">* Valable 2 mois et nominatif</small>
               </p>
-              <a href="https://cryogm.sumup.link/forfait" target="blank"
-                ><button class="btn btn-lg btn-primary" type="button">
-                  Je réserve!
-                </button></a
-              >
             </div>
           </div>
           <div class="col-md-4 my-4">
@@ -401,17 +398,29 @@
               <p class="my-4">
                 <small class="text-muted">4 personnes minimum</small>
               </p>
-              <a href="https://cryogm.sumup.link/seance-groupe" target="_blank"
-                ><button class="btn btn-lg btn-outline-primary" type="button">
-                  Je réserve!
-                </button></a
-              >
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- End of Prices -->
+
+    <!-- Calendly -->
+
+    <h2 class="text-center">Réservation</h2>
+    <!-- Début de widget en ligne Calendly -->
+    <div
+      class="calendly-inline-widget"
+      data-url="https://calendly.com/cryogm/15min"
+      style="min-width:320px;height:630px;"
+    ></div>
+    <script
+      type="text/javascript"
+      src="https://assets.calendly.com/assets/external/widget.js"
+    ></script>
+    <!-- Fin de widget en ligne Calendly -->
+
+    <!-- End of Calendly -->
 
     <!-- Footer -->
     <footer class="py-3">
