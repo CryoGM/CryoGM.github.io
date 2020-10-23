@@ -4,28 +4,40 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://www.cryogm.fr/</loc>
+  <lastmod>2020-10-17T17:07:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://www.cryogm.fr/index.html</loc>
+  <lastmod>2020-10-17T17:07:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.cryogm.fr/quest-ce-que-la-cryotherapie-corps-entier.html</loc>
+  <lastmod>2020-10-17T17:07:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.cryogm.fr/comment-venir-dans-notre-cabinet.html</loc>
+  <lastmod>2020-10-17T17:07:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.cryogm.fr/rejoignez-nos-partenaires.html</loc>
+  <lastmod>2020-10-17T17:07:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.cryogm.fr/Fiche_de_consentement.pdf</loc>
+  <lastmod>2020-10-17T17:07:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 
 
 </urlset>
